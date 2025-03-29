@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A simple Calculator</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="container">
+    <div>
+      <h1>Calculator</h1>
+    </div>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="calculator-display" readonly class="calculator-display">
+      </div>
+      <div class="buttons">
+        <div class="buttons-function">
+          <ul class="buttons-function-list buttons-list" id="buttons-function-list">
+            <li>
+              <button class="buttons-item" id="clear-button" value="">C</button>
+            </li>
+            <li>
+              <button class="buttons-item" id="delete-button">CE</button>
+            </li>
+            <li>
+              <button class="buttons-item" id="delete-button-extra">DEL</button>
+            </li>
+          </ul>
+        </div>
+        <div class="buttons-container">
+          <div class="buttons-number">
+            <ul class="buttons-number-list buttons-list" id="buttons-number-list">
+
+            </ul>
+          </div>
+
+          <div class="buttons-operator">
+            <ul class="buttons-operator-list buttons-list" id="buttons-operator-list">
+              <li>
+                <button class="buttons-item">+</button>
+              </li>
+
+              <li>
+                <button class="buttons-item">-</button>
+              </li>
+
+              <li>
+                <button class="buttons-item">*</button>
+              </li>
+
+              <li>
+                <button class="buttons-item">/</button>
+              </li>
+
+              <li>
+                <button class="buttons-item">=</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
